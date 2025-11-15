@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue de Films</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Style personnalisé -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<nav>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Info</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Vlog</a></li>
+            <li><a class="dropdown-item" href="#">Cinema</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="login.php">S'abonner</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Voir plus de films</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="SvoiPlus.php">En savoir plus sur nous</a>
+        </li>
+      </ul>
+</nav>
+<body class="bg-light " style="background-image: url(images/bacgr.jpg);">
+
+    <!-- Bannière d'accueil -->
+    <header class="bg-dark text-white text-center py-4 mb-4 animate__animated animate__fadeInDown">
+        <h1 class="mb-2">Bienvenue sur notre Catalogue de Films</h1>
+        <p class="lead">Découvrez les meilleures œuvres du cinéma ivoirien et europeen.</p>
+    </header>
+
+    <div class="container">
+        <!-- Formulaire de filtrage -->
+        <form id="filtre-form" class="mb-4 animate__animated animate__fadeInUp">
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <label for="genre" class="form-label text-primary">Genre :</label>
+                    <select id="genre" class="form-select">
+                        <option value="">Tous</option>
+                        <option value="Science-Fiction">Science-Fiction</option>
+                        <option value="Action">Action</option>
+                        <option value="Crime">Crime</option>
+                        <option value="Comédie">Comédie</option>
+                        <option value="Drame, Romance">Drame, Romance</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="realisateur" class="form-label text-primary">Réalisateur :</label>
+                    <input type="text" id="realisateur" class="form-control" placeholder="Nom du réalisateur">
+                </div>
+                <div class="col-md-4 d-flex align-items-end">
+                    <button type="submit" class="btn btn-primary w-100 shadow-lg animate__animated animate__pulse animate__infinite ">Filtrer</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- Liste des films -->
+        <div id="films-list" class="row">
+            <!-- Les films seront chargés ici dynamiquement -->
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p class="mb-0">© 2024 Catalogue de Films - Tous droits réservés.</p>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script pour charger les films -->
+    <script src="scripts/main.js"></script>
+
+</body>
+</html>

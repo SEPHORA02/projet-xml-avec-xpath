@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue>
+    <film>
+        <titre>Inception</titre>
+        <realisateur>Christopher Nolan</realisateur>
+        <annee>2010</annee>
+        <genre>Science-Fiction</genre>
+        <duree>148</duree>
+        <description>
+            Dom Cobb est un voleur expérimenté dans l'art dangereux de l'extraction : le vol de
+            secrets enfouis au plus profond du subconscient pendant que l'esprit est vulnérable
+            dans l'état de rêve.
+        </description>
+    </film>
+    <film>
+        <titre>The Dark Knight</titre>
+        <realisateur>Christopher Nolan</realisateur>
+        <annee>2008</annee>
+        <genre>Action</genre>
+        <duree>152</duree>
+        <description>
+            Batman, avec l'aide du lieutenant de police Jim Gordon et du procureur Harvey Dent,
+            lutte contre le crime organisé à Gotham City. Cependant, un criminel connu sous le nom
+            de Joker émerge, semant le chaos et poussant Batman à ses limites.
+        </description>
+    </film>
+    <film>
+        <titre>Interstellar</titre>
+        <realisateur>Christopher Nolan</realisateur>
+        <annee>2014</annee>
+        <genre>Science-Fiction</genre>
+        <duree>169</duree>
+        <description>
+            Dans un futur proche, la Terre devient inhabitable à cause de catastrophes climatiques.
+            Un groupe d'explorateurs traverse un trou de ver près de Saturne pour trouver un
+            nouveau foyer pour l'humanité.
+        </description>
+    </film>
+    <film>
+        <titre>Pulp Fiction</titre>
+        <realisateur>Quentin Tarantino</realisateur>
+        <annee>1994</annee>
+        <genre>Crime</genre>
+        <duree>154</duree>
+        <description>
+            Les vies de deux tueurs à gages, d'un boxeur, de la femme d'un gangster et d'un couple
+            de petits braqueurs s'entrecroisent dans une série d'histoires violentes et absurdes.
+        </description>
+    </film>
+    <film>
+        <titre>Invisible</titre>
+        <realisateur>Alex Ogou</realisateur>
+        <annee>2018</annee>
+        <genre>Drame, Romance</genre>
+        <duree>52</duree>
+        <description>
+            Une série poignante sur la vie des enfants de la rue en Côte d'Ivoire, confrontés à la
+            violence et à la corruption.
+        </description>
+    </film>
+    <film>
+        <titre>Ma Famille</titre>
+        <realisateur>Akissi Delta</realisateur>
+        <annee>2002</annee>
+        <genre>Comédie</genre>
+        <duree>30</duree>
+        <description>
+            Une série humoristique qui met en scène les péripéties d’une famille ivoirienne avec des
+            personnages hauts en couleur.
+        </description>
+    </film>
+
+
+    <film>
+        <titre>SEPHORA</titre>
+        <realisateur>Delta</realisateur>
+        <annee>2</annee>
+        <genre>Comédie</genre>
+        <duree>30</duree>
+        <description>
+            Une série humoristique qui met en scène les péripéties d’une famille ivoirienne avec des
+            personnages hauts en couleur.
+        </description>
+    </film>
+</catalogue>
