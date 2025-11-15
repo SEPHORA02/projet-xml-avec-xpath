@@ -22,5 +22,5 @@ Ce projet est un catalogue de films développé pour maîtriser la technologie X
 - XML (Extensible Markup Language)
 - XPath (filtres et recherches)
 - XSLT (pour transformation HTML)
-- Optionnel : Python/JavaScript pour automatisation
+- php; html, js , css
 
